@@ -1,0 +1,10 @@
+
+
+
+TEXTURE_FOLDER = ""
+TEXTURE_BLACKLIST_FILE = ""
+TEXTURE_WHITELIST_FILE = ""
+
+FOCAL_LENGTH = 1.5 # changes how far away the build will be
+CANVAS_SIZE = (400,600)
+GOAL_IMAGE_PATH = ""
