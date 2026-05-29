@@ -1,6 +1,5 @@
-import numpy as np
-import random
-
+import random, numpy as np
+from utils.projection_funcs import *
 def score_similarity(img1: np.ndarray, img2: np.ndarray):
     diff_base = img1.astype(np.int32) - img2.astype(np.int32)
     score = np.sum(diff_base * diff_base, axis=2)
@@ -10,13 +9,23 @@ def get_average_pixel_color(pixel1,pixel2):
     return np.array([int((pixel1[0] + pixel2[0])/2),
                      int((pixel1[1] + pixel2[1])/2),
                      int((pixel1[2] + pixel2[2])/2)], np.uint8)
-def score_block(goal_pixel, block_name, block_colors):
+def score_block_average(goal_pixel, block_name, block_colors):
     if "stained" in block_name:
         avg_color = get_average_pixel_color(goal_pixel, (block_colors[block_name][0],block_colors[block_name][1],block_colors[block_name][2]))
         return score_similarity(goal_pixel, np.array([[avg_color]], np.uint8))
     else:
         return score_similarity(goal_pixel, np.array([[[block_colors[block_name][0],block_colors[block_name][1],block_colors[block_name][2]]]], np.uint8))
+# much smarter score_block function.
+# instead of manually cropping the region on the canvas and
+# comparing to the same size block region, this code will
+# take points and a texture and score it. if it is a good
+# placement it will return the pixel region, otherwise
+# it returns None
+'''this code only works for square shaped blocks at the moment'''
+def score_block(goal, canvas, position, texture, block_type = None):
+    pts = get_polygons_for_cube(position)
 
+    pass
 # choose_block should maybe not be in here
 
 def choose_block(use_glass : bool, goal_pixels : list, block_colors : dict):

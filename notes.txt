@@ -1,0 +1,47 @@
+UPDATE LOG
+- project created today, May 28, 2026.
+    - I didn't actually start this project today. I started it maybe
+    7 weeks ago. However, I haven't significantly worked on it in over
+    4 weeks. I feel the need to finish this project, to any degree,
+    just so that I can say that I finish things i start. That is my
+    biggest problem. I want to go out and uncover fungus and discover
+    its complexity, but i realize i need to have priorities and do
+    things i dont want to do. ive been doing what i feel like all my
+    life and now is the time to start doing shit. i set a 30 minutes timer
+    and when its out i will look for mycelium. I have prom tomorrow and
+    I do not want to go.
+    - Stuff I have done today:
+        - created all the files and stuff. i started with the code from
+        my old, really messy project. im now working on encapsulation and
+        abstraction. i have made several new files, completely changing my
+        previous 2 file approach. im spliitting huge blocks of code into
+        functions and it is quite hard in some areas, especially since
+        i havent worked on this project in about 3 weeks, but i am getting
+        through it. i just need some time to acclimate to the functionality
+        of this code again, but im pretty familiar with it since i spent
+        so much time working on it.
+        - created a main.py file which i am using right now to get any
+        functionality during testing, rather than just blindly moving
+        code around, creating functions, etc. Very important imo.
+        - am going to set up OOP for blocks now so that i dont have to
+        fuck everything up trying to make it later. it will be in the
+        "blocks" directory.
+
+IDEAS
+- implement OOP for blocks. this would make it a lot easier to
+load, move, project, and store blocks.
+
+IDEAS/THOUGHTS UNRELATED TO PROJECT
+- is it bad that academic language is slowly going out of date?
+i think this is happening because languages evolve over time
+and even english 500 years ago is unintelligible to most modern
+speakers. academic writing does not really change. it has no slang,
+no shorthand (other than acronyms...to my knowledge), or other stuff.
+this is why it sounds so professional and proper. it is antiquated.
+# academics do this on purpose just like naming species in latin. But
+this gets at the fact that academic writing will become more exclusive
+to educated individuals, and it will have to change eventually. imagine
+if you had to learn latin just to read papers.
+- philosophy is the bridge between math-like rigorous proofs and human emotion....
+- im gay
+- setting a 30 minute timer for working on this project today
