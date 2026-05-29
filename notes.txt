@@ -14,7 +14,7 @@ UPDATE LOG
         - created all the files and stuff. i started with the code from
         my old, really messy project. im now working on encapsulation and
         abstraction. i have made several new files, completely changing my
-        previous 2 file approach. im spliitting huge blocks of code into
+        previous 2 file approach. im splitting huge blocks of code into
         functions and it is quite hard in some areas, especially since
         i havent worked on this project in about 3 weeks, but i am getting
         through it. i just need some time to acclimate to the functionality
@@ -26,22 +26,46 @@ UPDATE LOG
         - am going to set up OOP for blocks now so that i dont have to
         fuck everything up trying to make it later. it will be in the
         "blocks" directory.
+- May 29, 2026.
+    - i have my senior prom today but i see it as a waste of time
+    and i dont want to go in the slightest. i just want to code this
+    and im having fun playing around and optimizing and creating
+    the code.
+    - stuff i have done today (in the 1-2 hours ive been working):
+        - got actual functionality set up. i was kind of amazed that
+        this actually started working so quickly. i think its because
+        my old code was a complete mess and was incredibly over-engineered
+        - brainstorming ideas of caching resized textures and keeping
+        all the images in int32 to make pixel comparison faster
+        (although int32s would be significantly more expensive to copy
+        than uint8s now that im thinking about it).
+        - basically everything is functionalized/abstracted and you can
+        set up a main method in like 20 lines or less to get all the
+        functionality i had in that messy 500 line code from before. its
+        not even abstracted that poorly, since you can do almost everything
+        with this that i could do by tweaking strange/seemingly random values
+        in my old code, which was 600 lines if you're wondering.
 
 IDEAS
-- implement OOP for blocks. this would make it a lot easier to
-load, move, project, and store blocks.
+    - implement OOP for blocks. this would make it a lot easier to
+    load, move, project, and store blocks.
 
-IDEAS/THOUGHTS UNRELATED TO PROJECT
-- is it bad that academic language is slowly going out of date?
-i think this is happening because languages evolve over time
-and even english 500 years ago is unintelligible to most modern
-speakers. academic writing does not really change. it has no slang,
-no shorthand (other than acronyms...to my knowledge), or other stuff.
-this is why it sounds so professional and proper. it is antiquated.
-# academics do this on purpose just like naming species in latin. But
-this gets at the fact that academic writing will become more exclusive
-to educated individuals, and it will have to change eventually. imagine
-if you had to learn latin just to read papers.
-- philosophy is the bridge between math-like rigorous proofs and human emotion....
-- im gay
-- setting a 30 minute timer for working on this project today
+IDEAS/THOUGHTS RELATED OR UNRELATED TO PROJECT
+    - is it bad that academic language is slowly going out of date?
+    i think this is happening because languages evolve over time
+    and even english 500 years ago is unintelligible to most modern
+    speakers. academic writing does not really change. it has no slang,
+    no shorthand (other than acronyms...to my knowledge), or other stuff.
+    this is why it sounds so professional and proper. it is antiquated.
+    # academics do this on purpose just like naming species in latin. But
+    this gets at the fact that academic writing will become more exclusive
+    to educated individuals, and it will have to change eventually. imagine
+    if you had to learn latin just to read papers.
+    - philosophy is the bridge between math-like rigorous proofs and human emotion....
+    - im gay
+    - setting a 30 minute timer for working on this project today
+    - ecology and economics are highly connected and i bet an economist would
+    deeply understand and be interested in ecology. ecosystems are like highly
+    complex economies. fungi specifically are optimized to be the most efficient
+    at transfering energy under different conditions and with similar stressors
+    to that of real economies. so cool.

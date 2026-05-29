@@ -2,10 +2,6 @@ import cv2, numpy as np
 from utils.projection_funcs import *
 from config import CANVAS_SIZE
 
-texture_cache = {
-
-}
-
 def get_overlayed_region(canvas,position,texture,block_type = None):
     pts = get_polygons_for_cube(position)
     bounds = get_polygon_bounds(pts)
@@ -32,12 +28,5 @@ def get_overlayed_region(canvas,position,texture,block_type = None):
     if size[0] < 0 or size[1] < 0:
         #print("X OR Y SIZE LESS THAN 0")
         return None
-    if not size in texture_cache.keys():
-        texture_cache[size]=cv2.resize(texture,size)
-    #print(x_higher_bound,x_lower_bound,y_higher_bound,y_lower_bound)
-    region_pixels[y_lower_bound:y_higher_bound,x_lower_bound:x_higher_bound] = temp_texture
-
-
-    cv2.imshow("test",region_pixels)
-    print(len(unique_texture_sizes))
+    region_pixels[y_lower_bound:y_higher_bound,x_lower_bound:x_higher_bound] = cv2.resize(texture,size)
     return bounds, region_pixels
