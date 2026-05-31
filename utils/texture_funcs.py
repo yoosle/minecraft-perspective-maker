@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+from utils.comparison_funcs import score_similarity
 
 # add the functions that load the texture files
 

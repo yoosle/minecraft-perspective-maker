@@ -29,7 +29,7 @@ goal = cv2.imread(GOAL_IMAGE_PATH)
 goal = cv2.resize(goal, CANVAS_SIZE)
 cv2.imshow("g",goal)
 def main():
-    for z in range(200, 30, -1):
+    for z in range(25, 10, -1):
         for x in range(-40, 40, 1):
             for y in range(-40, 40, 1):
                 results = get_overlayed_region(canvas, (x, y, z), test_texture, 0)
@@ -50,4 +50,4 @@ def main():
         cv2.waitKey(1)
     cv2.waitKey(0)
 
-cProfile.run('main()')
+main()
